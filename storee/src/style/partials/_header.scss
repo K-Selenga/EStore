@@ -6,14 +6,48 @@
   position: sticky;
   top: 0;
   z-index: 10;
+  &__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__option {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0.5rem;
+    &--basket {
+      display: flex;
+      align-items: center;
+
+      &Count {
+        margin: 0 0.5rem;
+      }
+    }
+    &--lineOne {
+      font-size: 0.8rem;
+    }
+    &--lineTwo {
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+  }
   &__logo {
-    height: 3rem;
+    height: 2.7rem;
     object-fit: contain;
     margin: 0 0.5rem;
   }
   &__search {
+    display: flex;
+    align-items: center;
+    border-radius: 1.3rem;
+    flex: 1;
+    &--input {
+      height: 1rem;
+      padding: 0.6rem;
+      border: none;
+      width: 100%;
+    }
     &--icon {
-      padding: 0.3rem;
+      padding: 0.32rem;
       height: 1rem;
       background-color: yellow;
     }
