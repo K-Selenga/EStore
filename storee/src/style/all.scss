@@ -1,4 +1,11 @@
 * {
   margin: 0;
 }
+body {
+  background-color: rgb(237, 234, 237);
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @import "./partials/header";
+@import "./partials/home";
+@import "./partials/product";
