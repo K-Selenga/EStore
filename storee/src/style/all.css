@@ -16,7 +16,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #edc4b398;
+  background-color: #d198c5ff;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -93,9 +93,9 @@ body {
 }
 
 .header__search--icon {
-  padding: 0.32rem;
+  padding: 0.331rem;
   height: 1rem;
-  background-color: yellow;
+  background-color: #e0c568ff;
 }
 
 .home {
@@ -171,7 +171,7 @@ body {
 }
 
 .product__info--btn {
-  background: #83b3e4;
+  background: #e0c568ff;
   border: 1px solid #0055ab;
   color: #111;
   display: -webkit-box;
