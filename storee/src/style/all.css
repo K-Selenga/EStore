@@ -208,4 +208,29 @@ body {
 .product__info--rate {
   font-size: 1.1rem !important;
 }
+
+.checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.5rem;
+  background-color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 8rem;
+}
+
+.checkout__title {
+  margin-right: 0.8rem;
+  padding: 0.8rem;
+  border-bottom: 1.2px solid lightgray;
+}
 /*# sourceMappingURL=all.css.map */
