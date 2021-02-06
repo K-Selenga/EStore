@@ -245,7 +245,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 18.75rem;
+  width: 10rem;
   height: 9rem;
   padding: 1.2rem;
   background: white;
@@ -276,7 +276,7 @@ body {
   border: 1px solid #d2a500;
   margin-top: 0.8rem;
   color: #111;
-  font-size: medium;
+  font-size: small;
   letter-spacing: 0.07em;
 }
 /*# sourceMappingURL=all.css.map */
