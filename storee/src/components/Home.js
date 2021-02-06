@@ -12,6 +12,7 @@ function Home() {
         />
         <div className="home__row">
           <Product
+            id={112233}
             title="Laundry Essentials"
             price={15.99}
             rating={4}

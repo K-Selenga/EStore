@@ -53,6 +53,7 @@ function Product({ id, title, image, price, rating }) {
 }
 
 Product.defaultProps = {
+  id: 12345,
   title: "3Pcs Batroom Stuff",
   image: ProductImg,
   price: 17.78,
